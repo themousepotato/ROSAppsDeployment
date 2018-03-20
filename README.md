@@ -1,7 +1,7 @@
 # Deploying ROS apps using Docker
 
 ## Why deploy ROS apps?
-<img width="200" height="200" src="img.picturequotes.com/2/579/578697/lack-of-communication-quote-2-picture-quote-1.jpg" style="float:left;">
+<img width="200" height="200" src="http://img.picturequotes.com/2/579/578697/lack-of-communication-quote-2-picture-quote-1.jpg" style="float:left;">
 Apps developed using the Robotic Operating System can be made repeatable and reproducible. Why don't we make them deployable? Let's go through some hardware drivers which want to use ROS tools. They includes cameras, depth cameras, laser cameras, robots, audio, inertial units, GPS, joysticks. Sounds cool ;) !
 
 There are variety of ROS ecosystem also. Have a look at them.
