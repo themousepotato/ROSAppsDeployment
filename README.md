@@ -20,7 +20,7 @@ Not finished yet!
 
 ![ROS development matrix](https://github.com/TheMousePotato/ROSAppsDeployment/raw/master/images/matrix2.png)
 
-Time has come to re-invent the convensional approach. The cool thing about docker is that the container has no need to account of changes in another container. Let's try to make it simpler to understand. I'm maintaining a container for running apps required for joystick(say). My friend does that for camera. Then, my friend don't need to bother about dependencies for running my joystick apps. In the same way, I don't have to keep track of his development. Now the interesting thing comes to action. We can still communicate. Wow! Let's see it in action.
+Time has come to re-invent the convensional approach. The cool thing about docker is that a container has no need to account for  the changes in another container. Let's try to make it simpler to understand. I'm maintaining a container for running apps required for joystick(say). My friend does that for camera. Then, my friend don't need to bother about dependencies for running my joystick apps. In the same way, I don't have to keep track of his development. Now the interesting thing comes to action. We can still communicate. Wow! Let's see it in action.
 
 ## How to use Docker to ship ROS apps?
 As we have learnt to make things easier so far, let's try to implement it step by step. Links to installation and proxy setup for Docker are given in the end of this documentation. After that, let's start.
