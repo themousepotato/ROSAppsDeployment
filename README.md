@@ -12,15 +12,15 @@ There are variety of ROS ecosystems also. Have a look at them.
 
 ![ROS ecosystems](https://raw.githubusercontent.com/TheMousePotato/ROSAppsDeployment/master/images/ecosyss.png)
 
-Let's try to combine our areas of interest.
+Let's try to combine our areas of interest. First have a look at a normal software development environment matrix.
 
-![ROS development matrix](https://github.com/TheMousePotato/ROSAppsDeployment/raw/master/images/matrix1.png)
+![Software development matrix](https://github.com/TheMousePotato/ROSAppsDeployment/raw/master/images/matrix1.png)
 
-Not finished yet!
+Now, see how the robotics development progress in a matrix:
 
-![ROS development matrix](https://github.com/TheMousePotato/ROSAppsDeployment/raw/master/images/matrix2.png)
+![Robotics development matrix](https://github.com/TheMousePotato/ROSAppsDeployment/raw/master/images/matrix2.png)
 
-Time has come to re-invent the convensional approach. The cool thing about docker is that a container has no need to account for  the changes in another container. Let's try to make it simpler to understand. I'm maintaining a container for running apps required for joystick(say). My friend does that for camera. Then, my friend don't need to bother about dependencies for running my joystick apps. In the same way, I don't have to keep track of his development. Now the interesting thing comes to action. We can still communicate. Wow! Let's see it in action.
+Yuck! Too complex? Time has come to re-invent the convensional approach. The cool thing about docker is that a container has no need to account for the changes in another container. Let's try to make it simpler to understand. I'm maintaining a container for running apps required for joystick(say). My friend does that for camera. Then, my friend don't need to bother about dependencies for running my joystick apps. In the same way, I don't have to keep track of his development. So, I only need to install the libraries for my peripheral and so as my friend. If we are not deploying it using containers, then we have to work on a single space with all the packages installed. The worst thing about this non-deployable robotics is we have to commit each and every update for the libraries unnecessarily. We need to look after the libraries which we have no point of interest. Through containers, things get more simplification. Now the interesting thing comes to action. Our peripherals can still communicate. How? Each container has got an IP address and Docker act as a pathway and provides several network topologies to connect our nodes. Wow! Let's see it in action.
 
 ## How to use Docker to ship ROS apps?
 As we have learnt to make things easier so far, let's try to implement it step by step. Links to installation and proxy setup for Docker are given in the end of this documentation. After that, let's start.
