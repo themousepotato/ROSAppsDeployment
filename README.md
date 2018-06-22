@@ -233,3 +233,6 @@ Now, see how it has changed.
 * [Official website of Open Robotics](https://www.osrfoundation.org/)
 * [Docker on ROS slack channel](https://rosorg.slack.com/messages/docker/)
 * [FAQ on Docker at ROS website](http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:Docker/page:1/)
+
+## Contributions
+Hey! If you've found something missing in this article, do suggest changes by sending PRs.
