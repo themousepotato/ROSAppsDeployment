@@ -225,6 +225,7 @@ Now, see how it has changed.
 
 ## Reference and further reading
 * [Docker for beginners - tutorial by DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04)
+* [Docker for beginners - workshop material](https://docker-curriculum.com/)
 * [Docker cheatsheet](https://github.com/wsargent/docker-cheat-sheet)
 * [Configuring network proxy for using Docker](https://stackoverflow.com/questions/23111631/cannot-download-docker-images-behind-a-proxy)
 * [Official Docker library for ROS](https://registry.hub.docker.com/_/ros/)
